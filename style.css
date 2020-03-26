@@ -1,0 +1,105 @@
+body{
+    background-color: black !important;
+    color: #fff !important;
+}
+
+h1.headerText{
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: capitalize !important;
+}
+
+.headerPara{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+div.header {
+    text-align: center;
+    width: 100%;
+    background: url("./images/naija.jpg") center no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    display: flex;
+   align-items: center;
+ }
+  
+  
+  div.header{
+      box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.699);
+      padding-top: 5em;
+      padding-bottom: 8em;
+  }
+  
+  /* div.header:after {
+    content: '';
+    display: inline-block;
+  } */
+p.donate-now {
+    border: 1px solid #fff !important;
+    padding: 15px;
+}
+
+p.food-bank{
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #fff !important;
+    color: #fff;
+}
+
+.donate-now > a {
+    border: 1px soldi #fff;
+    color: #fff;
+}
+
+
+p.food-bank > a{
+    color: #000;
+}
+
+
+#donate-space{
+    position: absolute;
+    left:0;
+    right:0;
+    top: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    /* outline: 1px solid black; */
+}
+
+.inline-button{
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+.lesson{
+    margin-top: 50px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
