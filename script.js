@@ -1,5 +1,5 @@
 google.charts.load('current', { 'packages': ['map'],
-'mapsApiKey': 'AIzaSyAAhy_9WWHiIYdANue9UquWcrhSQ8wPJiQ'
+// 'mapsApiKey': 'AIzaSyAAhy_9WWHiIYdANue9UquWcrhSQ8wPJiQ'
 });
 google.charts.setOnLoadCallback(drawMap);
 
