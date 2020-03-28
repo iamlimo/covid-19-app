@@ -128,3 +128,16 @@ p.food-bank > a{
   .countryLabelBg{
     fill: #30BCED;   /* country label background colour */
   }
+
+  .table td{
+    color: #fff !important;
+  }
+
+  th{
+    color: #fff;
+  }
+
+
+  #map{
+    margin-top: 20px;
+  }

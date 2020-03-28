@@ -2,6 +2,8 @@
   <head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="script.js"></script>
   </head>
   <body>
     <div class="container-fluid header" id="headers">
@@ -37,13 +39,79 @@
       </div>
     </div><!-- end of lesson -->
 
-    <div id="map">
-      <div id="map-holder"></div>
+    <div class="container" id="map">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Latest Updates</h2>
+          <br>
+          <span>
+            <table class="table">
+              <thead class="thead-light">
+                <tr>
+                  <th scope="col">States</th>
+                  <th scope="col">Total Confirmed cases</th>
+                  <th scope="col">Dischared</th>
+                  <th scope="col">Death</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Abuja</th>
+                  <td>14</td>
+                  <td>0</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <th scope="row">Bauchi</th>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <th scope="row">Edo</th>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <th scope="row">Ekiti</th>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <th scope="row">Enugu</th>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <th scope="row">Lagos</th>
+                  <td>52</td>
+                  <td>3</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <th scope="row">Ogun</th>
+                  <td>3</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+              </tbody>
+            </table>
+          </span>
+        </div>
+        <div class="col-md-6">
+          <br>
+          <br>
+          <div id="chart_div"></div>
+        </div>
+      </div>
     </div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="script.js"></script>
+
   </body>
 </html>
