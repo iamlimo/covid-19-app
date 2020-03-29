@@ -141,3 +141,21 @@ p.food-bank > a{
   #map{
     margin-top: 20px;
   }
+
+
+
+  @media only screen and (max-width: 768px) {
+
+    #donate-space{
+      
+      top: 31em !important;
+     
+      width: 40%;
+      /* outline: 1px solid black; */
+  }
+
+  #headers{
+    height:  700px;
+    padding: 20em 0;
+  }
+  }
